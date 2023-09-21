@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "remote" {
-    organization = " dhanushsnowflake"
+    organization = "dhanushsnowflake"
 
     workspaces {
       name = "gh-actions-demo"
